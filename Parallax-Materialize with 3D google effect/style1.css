@@ -1,0 +1,202 @@
+/*
+
+Theme Name: Parallax-Materialize google effect
+
+Theme URI: http://samkam.000webhostapp.com/
+
+Author: Somy Kamble
+
+Author URI: http://modernmonks.in/
+
+Description: Our  theme is clean, blog-focused, and designed for clarity. It is simple,
+
+straightforward typography is readable on a wide variety of screen sizes,
+
+and suitable for multiple languages. We designed it using a mobile-first approach,
+
+meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone,
+
+tablet, laptop, or desktop computer.
+
+Tags: parallax,google,materilize,flat icons,3D, materialize, footer-widgets, blog, news, photography, buddypress, two-columns, right-sidebar, full-width-template, microformats, post-formats, flexible-header,  custom-background, custom-colors, custom-header, custom-menu
+
+Version: 1.00
+
+
+
+*/
+
+
+
+nav ul a,
+
+nav .brand-logo {
+
+  color: #444;
+
+}
+
+
+
+p {
+
+  line-height: 2rem;
+
+}
+
+
+
+.button-collapse {
+
+  color: #26a69a;
+
+}
+
+
+
+.parallax-container {
+
+  min-height: 380px;
+
+  line-height: 0;
+
+  height: auto;
+
+  color: rgba(255,255,255,.9);
+
+}
+
+  .parallax-container .section {
+
+    width: 100%;
+
+  }
+
+
+
+@media only screen and (max-width : 992px) {
+
+  .parallax-container .section {
+
+    position: absolute;
+
+    top: 40%;
+
+  }
+
+  #index-banner .section {
+
+    top: 10%;
+
+  }
+
+}
+
+
+
+@media only screen and (max-width : 600px) {
+
+  #index-banner .section {
+
+    top: 0;
+
+  }
+
+}
+
+
+
+.icon-block {
+
+  padding: 0 15px;
+
+}
+
+.icon-block .material-icons {
+
+  font-size: inherit;
+
+}
+
+
+
+footer.page-footer {
+
+  margin: 0;
+
+}
+
+
+
+
+
+/* visited link */
+
+
+
+
+
+h1 {
+
+  font-size: 5.9vh;
+
+}
+
+h2{
+
+  font-size: 3.9vh;
+
+}
+
+h2{
+
+  font-size: 4.9vw;
+
+}
+
+
+
+h3{
+
+  font-size: 5.9vh;
+
+}
+
+
+
+b {
+
+  font-size: 3.9vw;
+
+}
+
+/* fixed nav bar */
+
+#submit
+
+{
+
+
+
+    width: 86px;
+
+}
+
+h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+ a:link,
+
+a:visited{
+
+ color: #000000;
+
+    }
+
